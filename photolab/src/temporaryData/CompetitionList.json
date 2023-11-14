@@ -1,0 +1,17 @@
+{
+	"competitionsCount" : "2",
+	"competitionDto" : [
+		{
+			"competition_id" : "2",
+			"title" : "2023년 가을 사진 공모전",
+			"content" : "하늘과 바람과 별과 사람 간격을 이어주는 사진 한 장",
+			"createdAt" : "2023.11.10"
+		}, 
+        {
+			"competition_id" : "1",
+			"title" : "2023년 여름 사진 공모전",
+			"content" : "비망록 : 누구보다 뜨거웠던 우리들만의 여름을 기록하라.",
+			"createdAt" : "2023.08.10"
+		}
+	]
+}

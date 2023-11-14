@@ -1,0 +1,48 @@
+{
+	"competition_title" : "가을 사진 공모전",
+	"competition_content" : "이번 가을 사진 공모전의 주제는 쓸쓸함입니다.\n마음에 드는 사진에 투표해주세요\n23.11.10 ~ 23.12.10 ",
+	"bestPhotos" : [
+		{
+			"photo_id" : "001",
+			"title" : "나는 나비",
+			"description" : "나비는 난다. 어떻게든 날 것이다.",
+			"imagePath" : "https://cdn.pixabay.com/photo/2012/03/01/00/55/flowers-19830_1280.jpg"
+		},
+		{
+			"photo_id" : "002",
+			"title" : "단풍나무",
+			"description" : "가을의 대표적인 나무는 아무래도 단풍이겠죠?",
+			"imagePath" : "https://cdn.pixabay.com/photo/2014/12/08/02/59/benches-560435_1280.jpg"
+		},
+        {
+			"photo_id" : "003",
+			"title" : "외톨이나무",
+			"description" : "가을은 쓸쓸해 외톨이야ㅠㅡㅠ",
+			"imagePath" : "https://cdn.pixabay.com/photo/2016/12/27/21/03/lone-tree-1934897_1280.jpg"
+		},
+        {
+			"photo_id" : "004",
+			"title" : "빨간단풍",
+			"description" : "단풍나무는 시뻘겋다.",
+			"imagePath" : "https://cdn.pixabay.com/photo/2017/09/26/16/32/maple-leaves-2789234_1280.jpg"
+		}
+	],
+	"photos" : [
+		{
+			"exhibition_id" : "전시 식별자",
+			"imagePath" : "https://cdn.pixabay.com/photo/2016/09/06/18/22/visitors-1649815_1280.jpg"
+		}, 
+		{
+			"exhibition_id" : "전시 식별자",
+			"imagePath" : "https://cdn.pixabay.com/photo/2016/03/27/16/23/woman-1283009_1280.jpg"
+		}, 
+		{
+			"exhibition_id" : "전시 식별자",
+			"imagePath" : "https://cdn.pixabay.com/photo/2016/03/27/18/40/big-air-1283525_1280.jpg"
+		}, 
+		{
+			"exhibition_id" : "전시 식별자",
+			"imagePath" : "https://cdn.pixabay.com/photo/2017/09/10/18/29/universe-2736507_1280.jpg"
+		}
+	]
+}
