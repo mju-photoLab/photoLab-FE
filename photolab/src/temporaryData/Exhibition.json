@@ -1,0 +1,45 @@
+
+{	
+	"exhibitionTitle" : "2023\n 가을 사진\n 전시회",
+	"exhibitionContent" : "2023 가을 사진 전시회에서는 가을만의 다채로운 색상을 표현하려고 하였습니다. 울긋불긋한 단풍과 파란 하늘을 느껴보세요.",
+	"photos" : [
+		{
+			"photoId" : "1",
+			"imagePath" : "https://cdn.pixabay.com/photo/2023/09/18/16/48/green-leaves-8260983_1280.jpg",
+            "title" : "사진 제목",
+            "photographer" : "사진 작가"
+		},
+		{
+			"photoId" : "2",
+			"imagePath" : "https://cdn.pixabay.com/photo/2023/10/31/23/06/tiger-8356190_1280.jpg",
+            "title" : "사진 제목",
+            "photographer" : "사진 작가"
+		},
+        {
+			"photoId" : "3",
+			"imagePath" : "https://cdn.pixabay.com/photo/2023/11/03/11/49/autumn-8362844_1280.jpg",
+            "title" : "사진 제목",
+            "photographer" : "사진 작가"
+		},
+        {
+			"photoId" : "4",
+			"imagePath" : "https://cdn.pixabay.com/photo/2023/10/06/18/59/toad-8298947_1280.jpg",
+            "title" : "사진 제목",
+            "photographer" : "사진 작가"
+		},
+
+        {
+			"photoId" : "5",
+			"imagePath" : "https://cdn.pixabay.com/photo/2023/10/06/18/59/toad-8298947_1280.jpg",
+            "title" : "사진 제목",
+            "photographer" : "사진 작가"
+		},
+
+        {
+			"photoId" : "6",
+			"imagePath" : "https://cdn.pixabay.com/photo/2023/10/06/18/59/toad-8298947_1280.jpg",
+            "title" : "사진 제목",
+            "photographer" : "사진 작가"
+		}
+	]
+}

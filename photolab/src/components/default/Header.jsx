@@ -10,7 +10,7 @@ const Header = () => {
         <div className=' w-[300px] flex justify-between'>
           <div className=' text-mainBlack text-[15px] font-bold font-["Pretendard"] leading-tight'>포토랩 소개</div>
           <div className=' text-mainBlack text-[15px] font-bold font-["Pretendard"] leading-tight cursor-pointer' onClick={() => {navigate('/competitionList')}}>포토랩 공모전</div>
-          <div className=' text-mainBlack text-[15px] font-bold font-["Pretendard"] leading-tight'>포토랩 전시</div>
+          <div className=' text-mainBlack text-[15px] font-bold font-["Pretendard"] leading-tight cursor-pointer' onClick={() => {navigate('/exhibition')}}>포토랩 전시</div>
         </div>
         <div className=' flex'>
           <div className='flex mr-[8px] text-mainBlack text-[15px] font-bold font-["Pretendard"] leading-tight' onClick={() => {navigate('/login')}}>로그인</div>

@@ -12,6 +12,7 @@ import CompetitionList from './pages/User/CompetitionList.jsx';
 import Login from './pages/User/Login.jsx';
 import Signup from './pages/User/Signup.jsx';
 import ImageUploadPage from './pages/Admin/ImageUploadPage.jsx'
+import ExhibitionPage from './pages/User/ExhibitionPage.jsx';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -26,6 +27,7 @@ root.render(
         <Route path='/login' element={<Login/>}/>
         <Route path='/admin/imageUpload' element={<ImageUploadPage/>}/>
         <Route path='/signup' element={<Signup/>}/>
+        <Route path='/exhibition' element={<ExhibitionPage/>}/>
       </Routes>
     </BrowserRouter>
   </Provider>

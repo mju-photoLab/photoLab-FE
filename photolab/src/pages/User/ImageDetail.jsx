@@ -1,3 +1,4 @@
+import { useLocation } from "react-router-dom";
 import DisplayImage from "../../components/Detail/DisplayImage";
 import Header from "../../components/default/Header";
 import Heart from "../../components/default/Heart";

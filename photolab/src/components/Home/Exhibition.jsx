@@ -10,7 +10,7 @@ const Exhibition = ({homeData}) => {
             exhibitPhoto.map((a,index) => {
               console.log(exhibitPhoto)
               return(
-                <img src={exhibitPhoto[index].imagePath} alt="test" className=" w-56 h-56 mx-[8px] object-cover cursor-pointer"/> 
+                <img src={exhibitPhoto[index].imagePath} alt="test" className=" w-56 h-56 mx-[8px] object-cover cursor-pointer rounded-[10px]"/> 
               )
             }) 
           }

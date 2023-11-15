@@ -14,8 +14,8 @@ const CompetitionVote = () => {
         <CompetitionImage competitionDetail={competitionDetail}/>
         <div className=" mx-[240px] flex flex-wrap pt-[50px]">
         {
-            competitionPhotos.map((a,i) => {
-              const competitionPhotoOne = competitionPhotos[i]
+            competitionPhotos.map((a,index) => {
+              const competitionPhotoOne = competitionPhotos[index]
               return(
                 <CompetitionSmall competitionPhotoOne={competitionPhotoOne}/>
               )
