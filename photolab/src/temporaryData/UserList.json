@@ -1,0 +1,10 @@
+[
+    {
+        "nickname" : "나경호",
+        "role" : "ADMIN"
+    },
+    {
+        "nickname" : "최준호",
+        "role" : "USER"
+    }
+]

@@ -13,8 +13,8 @@ const Header = () => {
           <div className=' text-mainBlack text-[15px] font-bold font-["Pretendard"] leading-tight cursor-pointer' onClick={() => {navigate('/exhibition')}}>포토랩 전시</div>
         </div>
         <div className=' flex'>
-          <div className='flex mr-[8px] text-mainBlack text-[15px] font-bold font-["Pretendard"] leading-tight' onClick={() => {navigate('/login')}}>로그인</div>
-          <div className='flex ml-[8px] text-mainBlack text-[15px] font-bold font-["Pretendard"] leading-tight'>회원가입</div>
+          <div className='flex mr-[8px] text-mainBlack text-[15px] font-bold font-["Pretendard"] leading-tight cursor-pointer' onClick={() => {navigate('/login')}}>로그인</div>
+          <div className='flex ml-[8px] text-mainBlack text-[15px] font-bold font-["Pretendard"] leading-tight cursor-pointer' onClick={() => {navigate('/signup')}}>회원가입</div>
         </div>
       </div>
     </div>

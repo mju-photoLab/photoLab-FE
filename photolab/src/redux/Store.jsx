@@ -4,6 +4,8 @@ import competitionList from '../temporaryData/CompetitionList.json'
 import competitionDetail from '../temporaryData/CompetitionDetail.json'
 import imageDetail from '../temporaryData/imageDetail.json'
 import exhibitionData from '../temporaryData/Exhibition.json'
+import exhibitionListData from '../temporaryData/ExhibitionList.json'
+import userListData from '../temporaryData/UserList.json'
 
 const homeSlice = createSlice({
   name: 'home',
@@ -30,11 +32,23 @@ const exhibitionDataSlice = createSlice({
   initialState: exhibitionData,
   reducers:{}
 })
+const exhibitionListDataSlice = createSlice({
+  name: 'exhibitionListData',
+  initialState: exhibitionListData,
+  reducers: {}
+})
+const userListDataSlice = createSlice({
+  name: 'userList',
+  initialState: userListData,
+  reducers: {}
+})
 export const { reducer: homeReducer } = homeSlice
 export const { reducer: competitionListReducer } = competitionListSlice
 export const { reducer: competitionDetailReducer } = competitionDetailSlice
 export const { reducer: imageDetailReducer } = imageDetailSlice
 export const { reducer: exhibitionDataReducer } = exhibitionDataSlice
+export const { reducer: exhibitionListDataReducer } = exhibitionListDataSlice
+export const { reducer: userListDataReducer } = userListDataSlice
 
 const store = configureStore({
   reducer: {
@@ -42,7 +56,9 @@ const store = configureStore({
     competitionList: competitionListReducer,
     competitionDetail: competitionDetailReducer,
     imageDetail: imageDetailReducer,
-    exhibitionData: exhibitionDataReducer
+    exhibitionData: exhibitionDataReducer,
+    exhibitionListData: exhibitionListDataReducer,
+    userListData: userListDataReducer
   }
 })
 

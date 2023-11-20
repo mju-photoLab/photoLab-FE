@@ -1,5 +1,8 @@
+import { useNavigate } from "react-router-dom"
+
 const Exhibition = ({homeData}) => {
   const exhibitPhoto = homeData.photos
+  const navigate = useNavigate();
 
   return(
     <div className=" flex justify-center w-[1440px]">
@@ -10,12 +13,13 @@ const Exhibition = ({homeData}) => {
             exhibitPhoto.map((a,index) => {
               console.log(exhibitPhoto)
               return(
-                <img src={exhibitPhoto[index].imagePath} alt="test" className=" w-56 h-56 mx-[8px] object-cover cursor-pointer rounded-[10px]"/> 
+                <img src={exhibitPhoto[index].imagePath} alt="test" className=" w-56 h-56 mx-[8px] object-cover cursor-pointer rounded-[10px]"
+                onClick={() => navigate('/imageDetail')}/> 
               )
             }) 
           }
         </div>
-        <div className=" mx-[8px] flex justify-end mt-[12px] text-grey text-[15px] font-extrabold font-['Pretendard'] cursor-pointer">+ 더보기</div>
+        <div onClick={()=>navigate('/exhibition')} className=" mx-[8px] flex justify-end mt-[12px] text-grey text-[15px] font-extrabold font-['Pretendard'] cursor-pointer">+ 더보기</div>
       </div>
     </div>
   )

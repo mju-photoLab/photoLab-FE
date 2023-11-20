@@ -13,6 +13,10 @@ import Login from './pages/User/Login.jsx';
 import Signup from './pages/User/Signup.jsx';
 import ImageUploadPage from './pages/Admin/ImageUploadPage.jsx'
 import ExhibitionPage from './pages/User/ExhibitionPage.jsx';
+import AdminLogin from './pages/Admin/AdminLogin.jsx';
+import AdminMain from './pages/Admin/AdminMain.jsx';
+import List from './pages/Admin/List.jsx';
+import UserList from './pages/Admin/UserList.jsx';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -28,6 +32,10 @@ root.render(
         <Route path='/admin/imageUpload' element={<ImageUploadPage/>}/>
         <Route path='/signup' element={<Signup/>}/>
         <Route path='/exhibition' element={<ExhibitionPage/>}/>
+        <Route path='/admin/login' element={<AdminLogin/>}/>
+        <Route path='/admin/main' element={<AdminMain/>}/>
+        <Route path='/admin/manage/user' element={<UserList/>}/>
+        <Route path='/admin/manage/*' element={<List/>}/>
       </Routes>
     </BrowserRouter>
   </Provider>

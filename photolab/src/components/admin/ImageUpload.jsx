@@ -20,8 +20,7 @@ const ImageUpload = () => {
           'Content-Type': 'multipart/form-data',
           'Authorization': `Bearer ${token}`,
         },
-      };
-
+      };  
       const response = await axios.post('http://localhost:8080/api/admin/photos/newCompetitionPhoto', formData, config);
       console.log(response.data);
     } catch (error) {

@@ -1,0 +1,15 @@
+{
+	"exhibitionsCount" : "전시회 갯수",
+	"exhibitionDtos" : [
+		{
+			"exhibition_id" : "1",
+			"title" : "전시회 제목",
+			"createdAt" : "게시일"
+		},
+        {
+			"exhibition_id" : "2",
+			"title" : "전시회 제목",
+			"createdAt" : "게시일"
+		}
+	]
+}

@@ -2,7 +2,7 @@ import InputInfo from "../../components/LoginSignup/InputInfo";
 
 const Signup = () => {
   return(
-    <div className=" w-[1440px] h-full my-[95px] flex flex-col items-center">
+    <div className=" w-[1440px] h-full my-[30px] flex flex-col items-center">
       <div className=" text-mainBlack text-3xl font-bold font-['Pretendard'] mb-[37px]">회원가입</div>
       <InputInfo name='이름' content='이릅을 입력하세요.'/>
       <InputInfo name='학번' content='학번을 입력하세요.'/>
