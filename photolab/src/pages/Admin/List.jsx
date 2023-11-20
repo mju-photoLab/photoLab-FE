@@ -1,4 +1,4 @@
-import { useLocation } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 import AdminHeader from "../../components/default/AdminHeader";
 import ListForm from "../../components/admin/List/ListForm";
 
@@ -8,6 +8,8 @@ const List = () => {
   const list = state.list;
   const listLen = Object.keys(list).length
   const engName = state.engName
+  const navigate = useNavigate();
+
   return(
     <div className=" w-[1440px]">
       <AdminHeader/>
@@ -16,8 +18,8 @@ const List = () => {
         <hr className=" border border-['#000000] w-[304px] h-0 my-2"></hr>
       </div>
       <div className=" flex justify-between  ml-[240px] mt-[50px] mr-[256px]">
-        <div className=" text-grey text-xl font-bold font-['Inter'] ">총 {listLen}개의 공모전</div>
-        <div className=" text-mainBlack text-[15px] font-bold font-['Inter'] ">+ 새로운 전시 등록하기</div>
+        <div className=" text-grey text-xl font-bold font-['Inter'] ">총 {listLen}개의 {engName}</div>
+        <div onClick={() => {navigate(`/admin/${engName}/imageUpload`)}} className=" cursor-pointer text-mainBlack text-[15px] font-bold font-['Inter'] ">+ 새로운 {engName} 등록하기</div>
       </div>
       
       {

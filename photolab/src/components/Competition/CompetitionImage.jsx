@@ -1,5 +1,3 @@
-import { useNavigate } from "react-router-dom";
-
 const CompetitionImage = ({competitionDetail}) => {
   const competitionTitle = competitionDetail.title
   const competitionContent = competitionDetail.content
